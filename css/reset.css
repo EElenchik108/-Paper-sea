@@ -1,0 +1,44 @@
+*, *::after, *::before {
+ 	margin: 0;
+ 	padding: 0;
+	 border: 0;
+ 	box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul, li {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration:none;
+}
+img{
+	vertical-align: top;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: inherit;
+	font-size: inherit;
+}
+html, body {	
+	scroll-behavior: smooth; 	
+	box-sizing: border-box;	
+}
